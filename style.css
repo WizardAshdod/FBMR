@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;500;600&family=Hepta+Slab:wght@100;400;500;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+/* font-family: 'Fira Sans', sans-serif;
+
+font-family: 'Hepta Slab', serif;
+
+font-family: 'Playfair Display', serif; */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    font-size: 62.5%;
+    font-family: 'Fira Sans', sans-serif
+    
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    border: 1px solid black;
+    border-radius:48% 52% 23% 77% / 53% 56% 44% 47%  ;
+    -webkit-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+-moz-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    border: 1px solid black;
+    border-radius:55% 45% 23% 77% / 83% 82% 18% 17% ;
+    -webkit-box-shadow: 10px 6px 22px -13px rgba(255,0,255,1);
+-moz-box-shadow: 10px 6px 22px -13px rgba(255,0,255,1);
+box-shadow: 10px 6px 22px -13px rgba(255,0,255,1);
+}
+
+main{
+    border: 1px solid black;
+    border-radius:48% 52% 23% 77% / 53% 56% 44% 47%  ;
+    -webkit-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+   -moz-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+    box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+}
+
+.info{
+    margin: 3rem;
+    text-align: center;
+    
+}
+
+.releases {
+    width: 100vw;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   border-radius:48% 52% 23% 77% / 53% 56% 44% 47%  ;
+   -webkit-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+-moz-box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+box-shadow: 10px 6px 49px 3px rgba(255,0,255,1);
+  
+}
+.bc_link{
+    text-align: center;
+    margin:1rem 0 1rem 0;
+}
+.links{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.links a img {
+    height: 5vh;
+    margin: 2rem;
+}
